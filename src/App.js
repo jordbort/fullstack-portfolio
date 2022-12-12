@@ -1,25 +1,30 @@
-import logo from './logo.svg';
-import './App.css';
+import './App.css'
+
+// Components
+import Header from './components/Header'
+import Footer from './components/Footer'
+
+// Pages
+import Home from './pages/Home'
+import Projects from './pages/Projects'
+import About from './pages/About'
+import { Route, Routes } from 'react-router'
 
 function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+    // Something something Heroku URL for the backend?
+    const URL = "http://localhost:4000/"
+
+    return (
+        <>
+            <Header />
+            <Routes>
+                <Route exact path='/' element={<Home />} />
+                <Route path='/projects' element={<Projects URL={URL} />} />
+                <Route path='/about' element={<About URL={URL} />} />
+            </Routes>
+            <Footer />
+        </>
+    )
 }
 
-export default App;
+export default App
