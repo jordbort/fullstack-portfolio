@@ -1,13 +1,14 @@
 [
     {
-        "name": "Project 1: Simon (sus version)",
+        "name": "Project 1: Web browser game - Simon (sus version)",
         "live": "https://jordbort.github.io/project-1-simon/",
         "git": "https://github.com/jordbort/project-1-simon",
         "image": "https://user-images.githubusercontent.com/115664302/202954229-24d44307-2766-4934-8b66-98e2ecd27651.png"
     },
     {
-        "name": "Project 2: Brewery Buddy 🍻 (React application)",
+        "name": "Project 2: React application - Brewery Buddy 🍻",
         "live": "https://dreamy-bienenstitch-fd35ba.netlify.app/",
-        "git": "https://github.com/jordbort/project-2-brewery-app"
+        "git": "https://github.com/jordbort/project-2-brewery-app",
+        "image": null
     }
 ]
