@@ -11,17 +11,15 @@ import About from './pages/About'
 import { Route, Routes } from 'react-router'
 
 function App() {
-    // Something something Heroku URL for the backend?
     const URL = "http://localhost:4000/"
-
     return (
         <>
             <Header />
-            <Routes>
-                <Route exact path='/' element={<Home />} />
-                <Route path='/projects' element={<Projects URL={URL} />} />
-                <Route path='/about' element={<About URL={URL} />} />
-            </Routes>
+                <Routes>
+                    <Route exact path='/' element={<Home />} />
+                    <Route path='/projects' element={<Projects URL={URL} />} />
+                    <Route path='/about' element={<About URL={URL} />} />
+                </Routes>
             <Footer />
         </>
     )
