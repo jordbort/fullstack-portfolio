@@ -1,6 +1,7 @@
 {
     "name": "Jordan Bortner",
-    "username": "jordbort",
-    "email": "jordan.bortner@gmail.com",
+    "location": "Brooklyn, NY",
+    "github": "https://github.com/jordbort",
+    "linkedin": "https://www.linkedin.com/in/jordan-bortner/",
     "bio": "Software engineer, electronic musician, and video artist. Currently enrolled in General Assembly's Software Engineering immersive program"
 }

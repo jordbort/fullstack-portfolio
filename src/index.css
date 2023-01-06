@@ -3,6 +3,13 @@ body {
     font-family: sans-serif;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
+    background-color: #000000;
+    color: #FFFFFF;
+}
+
+a {
+    color: #8888FF;
+    text-decoration: none;
 }
 
 code {

@@ -26,8 +26,9 @@ function About(props) {
     const loaded = () => (
         <div>
             <h2>Name: {about.name}</h2>
-            <h3>GitHub username: {about.username}</h3>
-            <h3>e-mail: {about.email}</h3>
+            <h4>Location: {about.location}</h4>
+            <h4>GitHub: <a href={about.github} target="_blank" rel="noopener noreferrer">{about.github}</a></h4>
+            <h4>LinkedIn: <a href={about.linkedin} target="_blank" rel="noopener noreferrer">{about.linkedin}</a></h4>
             <p>Bio: {about.bio}</p>
         </div>
     )
