@@ -10,5 +10,17 @@
         "live": "https://brewerybuddy.netlify.app/",
         "git": "https://github.com/jordbort/project-2-brewery-app",
         "image": "https://user-images.githubusercontent.com/115664302/207182492-793aa4bd-d8b3-418b-a02c-4cba28f181fc.png"
+    },
+    {
+        "name": "Project 3 - Full-stack MERN application: Fitness Check",
+        "live": "https://fitness-check.netlify.app/",
+        "git": "https://github.com/jordbort/project-3-fitness-frontend",
+        "image": null
+    },
+    {
+        "name": "Personal biographical website",
+        "live": "https://www.jordanbortner.com/",
+        "git": "https://github.com/jordbort/website",
+        "image": "https://user-images.githubusercontent.com/115664302/210938519-5be48d29-0d28-4ca2-9276-6ba9114ffd47.png"
     }
 ]
