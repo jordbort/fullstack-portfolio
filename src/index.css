@@ -103,4 +103,8 @@ section {
     h4 {
         font-size: 1.25rem;
     }
+
+    .buttons-container button {
+        font-size: 0.65rem;
+    }
 }
