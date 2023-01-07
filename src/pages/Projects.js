@@ -24,21 +24,24 @@ function Projects(props) {
 
     // Define a function that will return the JSX needed once we get the data
     const loaded = () => {
-        return <section className="projects">
-            {projects.map((project, idx) => (
-                <div key={idx}>
-                    <h1>{project.name}</h1>
-                    <img src={project.image} alt={`Screenshot from ${project.name}`} />
-                    <br />
-                    <a href={project.git} target="_blank" rel="noreferrer">
-                        <button>View on GitHub</button>
-                    </a>
-                    <a href={project.live} target="_blank" rel="noreferrer">
-                        <button>Deployed site</button>
-                    </a>
-                </div>
-            ))}
-        </section>
+        return (
+            <main>
+                {projects.map((project, idx) => (
+                    <section key={idx}>
+                        {project.name ? <h4>{project.name}</h4> : null}
+                        {project.image ? <img src={project.image} alt={`Screenshot from ${project.name}`} /> : null}
+                        <div className="buttons-container">
+                            {project.git ? <a href={project.git} target="_blank" rel="noreferrer">
+                                <button>View on GitHub</button>
+                            </a> : null}
+                            {project.live ? <a href={project.live} target="_blank" rel="noreferrer">
+                                <button>Deployed site</button>
+                            </a> : null}
+                        </div>
+                    </section>
+                ))}
+            </main>
+        )
     }
 
     // If data arrives, return the result, otherwise a loading screen
