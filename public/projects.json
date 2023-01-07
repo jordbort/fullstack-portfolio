@@ -2,25 +2,29 @@
     {
         "name": "Project 1 - Web browser game: Simon (sus version)",
         "live": "https://jordbort.github.io/project-1-simon/",
-        "git": "https://github.com/jordbort/project-1-simon",
+        "gitFrontEnd": "https://github.com/jordbort/project-1-simon",
+        "gitBackEnd": null,
         "image": "https://user-images.githubusercontent.com/115664302/202954229-24d44307-2766-4934-8b66-98e2ecd27651.png"
     },
     {
         "name": "Project 2 - React application: Brewery Buddy 🍻",
         "live": "https://brewerybuddy.netlify.app/",
-        "git": "https://github.com/jordbort/project-2-brewery-app",
+        "gitFrontEnd": "https://github.com/jordbort/project-2-brewery-app",
+        "gitBackEnd": null,
         "image": "https://user-images.githubusercontent.com/115664302/207182492-793aa4bd-d8b3-418b-a02c-4cba28f181fc.png"
     },
     {
         "name": "Project 3 - Full-stack MERN application: Fitness Check",
         "live": "https://fitness-check.netlify.app/",
-        "git": "https://github.com/jordbort/project-3-fitness-frontend",
+        "gitFrontEnd": "https://github.com/jordbort/project-3-fitness-frontend",
+        "gitBackEnd": "https://github.com/jordbort/project-3-fitness-backend",
         "image": null
     },
     {
         "name": "Personal biographical website",
         "live": "https://www.jordanbortner.com/",
-        "git": "https://github.com/jordbort/website",
+        "gitFrontEnd": "https://github.com/jordbort/website",
+        "gitBackEnd": null,
         "image": "https://user-images.githubusercontent.com/115664302/211127888-1c57f87e-18b9-40db-8a65-1e474aa27db4.jpg"
     }
 ]

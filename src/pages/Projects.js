@@ -31,8 +31,11 @@ function Projects(props) {
                         {project.name ? <h4>{project.name}</h4> : null}
                         {project.image ? <img src={project.image} alt={`Screenshot from ${project.name}`} /> : null}
                         <div className="buttons-container">
-                            {project.git ? <a href={project.git} target="_blank" rel="noreferrer">
-                                <button>View on GitHub</button>
+                            {project.gitFrontEnd ? <a href={project.git} target="_blank" rel="noreferrer">
+                                <button>GitHub Frontend Repo</button>
+                            </a> : null}
+                            {project.gitBackEnd ? <a href={project.git} target="_blank" rel="noreferrer">
+                                <button>GitHub Backend Repo</button>
                             </a> : null}
                             {project.live ? <a href={project.live} target="_blank" rel="noreferrer">
                                 <button>Deployed site</button>
