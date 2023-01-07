@@ -27,8 +27,8 @@ function About(props) {
         <main>
             <h3>Name: {about.name}</h3>
             <p>Location: {about.location}</p>
-            <p>GitHub: <a href={about.github} target="_blank" rel="noopener noreferrer">{about.github}</a></p>
-            <p>LinkedIn: <a href={about.linkedin} target="_blank" rel="noopener noreferrer">{about.linkedin}</a></p>
+            <p>GitHub: <a href={about.github} target="_blank" rel="noopener noreferrer">github.com/jordbort</a></p>
+            <p>LinkedIn: <a href={about.linkedin} target="_blank" rel="noopener noreferrer">in/jordan-bortner/</a></p>
             <p>Bio: {about.bio}</p>
         </main>
     )
