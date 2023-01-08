@@ -104,7 +104,11 @@ section {
         font-size: 1.25rem;
     }
 
+    .desktop-only {
+        display: none;
+    }
+
     .buttons-container button {
-        font-size: 0.65rem;
+        font-size: 0.75rem;
     }
 }
