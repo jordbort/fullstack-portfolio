@@ -1,6 +1,6 @@
 import { useEffect, useState } from "react"
 
-function About(props) {
+function About() {
     const [about, setAbout] = useState(null)
 
     const getAboutData = async () => {

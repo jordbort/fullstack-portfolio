@@ -1,6 +1,6 @@
 import { useEffect, useState } from "react"
 
-function Projects(props) {
+function Projects() {
     const [projects, setProjects] = useState(null)
 
     const getProjectsData = async () => {
@@ -19,6 +19,7 @@ function Projects(props) {
                 {projects.map((project, idx) => (
                     <section key={idx}>
                         {project.name ? <h4>{project.name}</h4> : null}
+                        {project.description ? <p>{project.description}</p> : null}
                         {project.image ? <img src={project.image} alt={`Screenshot from ${project.name}`} /> : null}
                         <div className="buttons-container">
                             {project.gitFrontEnd ? <a href={project.gitFrontEnd} target="_blank" rel="noreferrer"><button>Frontend Repo<span className="desktop-only"> on GitHub</span></button></a> : null}

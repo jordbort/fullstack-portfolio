@@ -1,27 +1,31 @@
 [
     {
-        "name": "Project 1 - Web browser game: Simon (sus version)",
+        "name": "Project 1 - Simon (sus version)",
+        "description": "A pattern-matching web browser game meant to re-create the reactor task from the popular online game \"Among Us\" using HTML, CSS, and vanilla JavaScript.",
         "live": "https://jordbort.github.io/project-1-simon/",
         "gitFrontEnd": "https://github.com/jordbort/project-1-simon",
         "gitBackEnd": null,
         "image": "https://user-images.githubusercontent.com/115664302/202954229-24d44307-2766-4934-8b66-98e2ecd27651.png"
     },
     {
-        "name": "Project 2 - React application: Brewery Buddy 🍻",
+        "name": "Project 2 - Brewery Buddy 🍻",
+        "description": "A React.js application built using the OpenBreweryDB API along with React Leaflet, to query a maintained database of breweries around the world and display their location on a map.",
         "live": "https://brewerybuddy.netlify.app/",
         "gitFrontEnd": "https://github.com/jordbort/project-2-brewery-app",
         "gitBackEnd": null,
         "image": "https://user-images.githubusercontent.com/115664302/207182492-793aa4bd-d8b3-418b-a02c-4cba28f181fc.png"
     },
     {
-        "name": "Project 3 - Full-stack MERN application: Fitness Check",
+        "name": "Project 3 - Fitness Check",
+        "description": "A fullstack MERN (Mongoose, Express, React, Node) application for users to upload pictures of and rate their daily workout, to share with other users on the platform.",
         "live": "https://fitness-check.netlify.app/",
         "gitFrontEnd": "https://github.com/jordbort/project-3-fitness-frontend",
         "gitBackEnd": "https://github.com/jordbort/project-3-fitness-backend",
         "image": null
     },
     {
-        "name": "Personal biographical website",
+        "name": "Biographical website",
+        "description": "My own personal website showcasing my background and works as an artist and musician, recently refactored for mobile responsiveness.",
         "live": "https://www.jordanbortner.com/",
         "gitFrontEnd": "https://github.com/jordbort/website",
         "gitBackEnd": null,
