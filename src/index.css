@@ -52,6 +52,7 @@ section {
 }
 
 .nav-link {
+	background-color: #222222;
     text-align: center;
 	padding: 20px;
 }
@@ -69,8 +70,22 @@ section {
         font-size: 1rem;
         margin: 0;
     }
+    header {
+        position: fixed;
+        top: 0;
+        right: 0;
+        bottom: auto;
+        left: 0;
+    }
+    footer {
+        position: fixed;
+        top: auto;
+        right: 0;
+        bottom: 0;
+        left: 0;
+    }
     main {
-        margin: 0 8px;
+        margin: 80px 8px;
     }
     img {
         margin-bottom: 8px;
