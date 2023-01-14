@@ -25,7 +25,7 @@ function Projects() {
                                 <img src={project.desktop} alt={`Screenshot from ${project.name}`} />
                             </div> : null}
                             {project.mobile ? <div className="mobile-preview">
-                                <img src={project.mobile} alt={`Screenshot from ${project.name}`} />
+                                <a href={project.live}><img src={project.mobile} alt={`Screenshot from ${project.name}`} /></a>
                             </div> : null}
                         </div> : null}
                         {project.gitFrontEnd || project.gitBackEnd || project.live ? <div className="buttons-container">
