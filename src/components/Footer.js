@@ -1,7 +1,4 @@
-// import { Link } from "react-router-dom"
-
-function Footer(props) {
-    // Styling
+function Footer() {
     const footerStyle = {
         display: "flex",
         borderTop: "1px solid #FFFFFF"

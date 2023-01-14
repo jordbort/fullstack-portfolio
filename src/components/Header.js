@@ -1,7 +1,6 @@
 import { Link } from "react-router-dom"
 
-function Header(props) {
-    // Styling
+function Header() {
     const navStyle = {
         display: "flex",
         marginBottom: "0",

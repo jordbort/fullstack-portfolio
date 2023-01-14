@@ -1,6 +1,6 @@
 import { useEffect, useState } from "react"
 
-function Projects(props) {
+function Projects() {
     const [projects, setProjects] = useState(null)
 
     const getProjectsData = async () => {
@@ -19,6 +19,7 @@ function Projects(props) {
                 {projects.map((project, idx) => (
                     <section key={idx}>
                         {project.name ? <h4>{project.name}</h4> : null}
+                        {project.description ? <p>{project.description}</p> : null}
                         {project.desktop || project.mobile ? <div className="preview-images-container">
                             {project.desktop ? <div className="desktop-preview">
                                 <img src={project.desktop} alt={`Screenshot from ${project.name}`} />
@@ -29,10 +30,10 @@ function Projects(props) {
                         </div> : null}
                         {project.gitFrontEnd || project.gitBackEnd || project.live ? <div className="buttons-container">
                             {project.gitFrontEnd ? <a href={project.gitFrontEnd} target="_blank" rel="noreferrer">
-                                <button>GitHub Frontend Repo</button>
+                                <button>Frontend repo<span className="desktop-only"> on GitHub</span></button>
                             </a> : null}
                             {project.gitBackEnd ? <a href={project.gitBackEnd} target="_blank" rel="noreferrer">
-                                <button>GitHub Backend Repo</button>
+                                <button>Backend repo<span className="desktop-only"> on GitHub</span></button>
                             </a> : null}
                             {project.live ? <a href={project.live} target="_blank" rel="noreferrer">
                                 <button>Deployed site</button>

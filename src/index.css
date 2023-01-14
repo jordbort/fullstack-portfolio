@@ -80,6 +80,7 @@ section {
 }
 
 .nav-link {
+    background-color: #222222;
     text-align: center;
     padding: 20px;
 }
@@ -94,11 +95,30 @@ section {
     justify-content: space-evenly;
 }
 
-
 @media (orientation: portrait) and (max-width: 1100px) {
     body {
-        margin: 0;
         font-size: 1rem;
+        margin: 0;
+    }
+
+    header {
+        position: fixed;
+        top: 0;
+        right: 0;
+        bottom: auto;
+        left: 0;
+    }
+
+    footer {
+        position: fixed;
+        top: auto;
+        right: 0;
+        bottom: 0;
+        left: 0;
+    }
+
+    main {
+        margin: 80px 8px;
     }
 
     img {
@@ -120,12 +140,16 @@ section {
     h4 {
         font-size: 1.25rem;
     }
+    
+    .desktop-only {
+        display: none;
+    }
 
     .desktop-preview {
         min-width: 77.77%;
     }
 
     .buttons-container button {
-        font-size: 0.65rem;
+        font-size: 0.75rem;
     }
 }
