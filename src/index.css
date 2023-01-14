@@ -71,7 +71,7 @@ section {
 }
 
 .desktop-preview {
-    min-width: 78.52%;
+    min-width: 78.55%;
     height: auto;
 }
 
@@ -140,13 +140,13 @@ section {
     h4 {
         font-size: 1.25rem;
     }
-    
+
     .desktop-only {
         display: none;
     }
 
     .desktop-preview {
-        min-width: 77.77%;
+        min-width: 77.75%;
     }
 
     .buttons-container button {
