@@ -71,11 +71,12 @@ section {
 }
 
 .desktop-preview {
-    min-width: 78.5%;
+    min-width: 78.52%;
+    height: auto;
 }
 
 .mobile-preview {
-    height: 100%;
+    height: auto;
 }
 
 .nav-link {
