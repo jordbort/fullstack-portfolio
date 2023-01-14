@@ -1,11 +1,11 @@
 body {
-	background-color: #222222;
-	background-attachment: fixed;
-	background-repeat: no-repeat;
-	margin: 0 25vw;
-	padding: 0;
-	color: #FFFFFF;
-	font-size: 1.5rem;
+    background-color: #222222;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    margin: 0 25vw;
+    padding: 0;
+    color: #FFFFFF;
+    font-size: 1.5rem;
     font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New', monospace;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
@@ -17,7 +17,8 @@ img {
     margin-bottom: 4px;
 }
 
-nav a, footer a {
+nav a,
+footer a {
     color: #CCCC00;
     width: 100%;
     text-decoration: none;
@@ -29,10 +30,13 @@ main a {
 }
 
 main a:hover {
-	color: #FFFF00;
+    color: #FFFF00;
 }
 
-h1, h2, h3, h4 {
+h1,
+h2,
+h3,
+h4 {
     margin: 1rem 0;
 }
 
@@ -61,15 +65,27 @@ section {
     margin-bottom: 64px;
 }
 
+.preview-images-container {
+    display: flex;
+    gap: 8px;
+}
+
+.desktop-preview {
+    min-width: 78.5%;
+}
+
+.mobile-preview {
+    height: 100%;
+}
 
 .nav-link {
     text-align: center;
-	padding: 20px;
+    padding: 20px;
 }
 
 .nav-link:hover {
-	background-color: #333333;
-	color: #FFFF00;
+    background-color: #333333;
+    color: #FFFF00;
 }
 
 .buttons-container {
@@ -83,7 +99,7 @@ section {
         margin: 0;
         font-size: 1rem;
     }
-    
+
     img {
         margin-bottom: 8px;
     }
@@ -91,17 +107,21 @@ section {
     h1 {
         font-size: 2rem;
     }
-    
+
     h2 {
         font-size: 1.75rem;
     }
-    
+
     h3 {
         font-size: 1.5rem;
     }
-    
+
     h4 {
         font-size: 1.25rem;
+    }
+
+    .desktop-preview {
+        min-width: 77.77%;
     }
 
     .buttons-container button {
