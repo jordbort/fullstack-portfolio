@@ -1,6 +1,6 @@
 import { Link } from "react-router-dom"
 
-function Header() {
+export default function Header() {
     const navStyle = {
         display: "flex",
         marginBottom: "0",
@@ -23,5 +23,3 @@ function Header() {
         </header>
     )
 }
-
-export default Header

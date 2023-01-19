@@ -1,4 +1,4 @@
-function Footer() {
+export default function Footer() {
     const footerStyle = {
         display: "flex",
         borderTop: "1px solid #FFFFFF"
@@ -15,5 +15,3 @@ function Footer() {
         </footer>
     )
 }
-
-export default Footer

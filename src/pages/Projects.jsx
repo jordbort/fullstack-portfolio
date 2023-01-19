@@ -1,9 +1,9 @@
 import { useEffect, useState } from "react"
 
-function Projects() {
+export default function Projects() {
     const [projects, setProjects] = useState(null)
 
-    const getProjectsData = async () => {
+    async function getProjectsData() {
         const response = await fetch("./projects.json")
         const data = await response.json()
         setProjects(data)
@@ -11,9 +11,10 @@ function Projects() {
 
     useEffect(() => {
         getProjectsData()
+        return (() => setProjects(null))
     }, [])
 
-    const loaded = () => {
+    function loaded() {
         return (
             <main>
                 {projects.map((project, idx) => (
@@ -47,5 +48,3 @@ function Projects() {
 
     return projects ? loaded() : <h1>Loading...</h1>
 }
-
-export default Projects
