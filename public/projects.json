@@ -1,6 +1,6 @@
 [
     {
-        "name": "Project 3 - Fitness Check",
+        "name": "Project 3 - FitCheck",
         "description": "A fullstack MERN (Mongoose, Express, React, Node) application for users to upload pictures of and rate their daily workouts, to share with other users on the platform.",
         "live": "https://fitness-check.netlify.app/",
         "gitFrontEnd": "https://github.com/jordbort/project-3-fitness-frontend",
