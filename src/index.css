@@ -33,18 +33,32 @@ main a:hover {
     color: #FFFF00;
 }
 
-.about-photo {
-    /* position: absolute; */
-    /* z-index: -1; */
-    float: right;
-    /* top: 80px; */
-    /* bottom: 50vh; */
-    /* right: 25vw; */
-    /* width: 256px; */
-    margin: 0 0 8px 8px;
-    max-width: 40%;
-    /* scroll-behavior: smooth; */
-    /* height: auto; */
+label {
+    min-width: 88px;
+}
+
+input {
+    padding: 4px;
+    margin: 0 8px;
+}
+
+form div {
+    display: flex;
+    align-items: center;
+    margin: 0 0 16px;
+}
+
+textarea {
+    display: block;
+    min-width: 60%;
+    max-width: 99%;
+    min-height: 160px;
+    padding: 4px;
+    margin: 8px 0;
+}
+
+input[type="submit"] {
+    margin: 8px 0 16px;
 }
 
 h1,
@@ -77,6 +91,12 @@ button {
 
 section {
     margin-bottom: 64px;
+}
+
+.about-photo {
+    float: right;
+    margin: 0 0 8px 8px;
+    max-width: 40%;
 }
 
 .preview-images-container {
@@ -153,6 +173,14 @@ section {
 
     h4 {
         font-size: 1.25rem;
+    }
+
+    textarea {
+        width: 80%;
+    }
+
+    label {
+        min-width: 60px;
     }
 
     .desktop-only {
