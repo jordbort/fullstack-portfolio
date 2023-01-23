@@ -16,7 +16,7 @@ export default function ContactForm() {
             e.target.reset()
         }
     }
-    
+
     return (
         <>
             <h4>&#128071; Send me an email!</h4>
@@ -29,10 +29,8 @@ export default function ContactForm() {
                     <label htmlFor="user_email">Email:</label>
                     <input type="email" name="user_email" placeholder="Your email address" />
                 </div>
-                {/* <div> */}
                 <label htmlFor="message">Send me a nice message:</label>
                 <textarea name="message" placeholder="Type your message here" />
-                {/* </div> */}
                 <input type="submit" value="Send email" />
             </form>
         </>
