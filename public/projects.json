@@ -1,6 +1,15 @@
 [
     {
-        "name": "Project 3 - FitCheck",
+        "name": "Glitch Gator: A Glitch Art Generator",
+        "description": "A Django fullstack application made in a one-week sprint, for users to upload and corrupt images, and share their creations with others.",
+        "live": null,
+        "gitFrontEnd": "https://github.com/jordbort/capstone-glitch_generator",
+        "gitBackEnd": null,
+        "desktop": null,
+        "mobile": null
+    },
+    {
+        "name": "FitCheck",
         "description": "A fullstack MERN (Mongoose, Express, React, Node) application for users to upload pictures of and rate their daily workouts, to share with other users on the platform.",
         "live": "https://fitness-check.netlify.app/",
         "gitFrontEnd": "https://github.com/jordbort/project-3-fitness-frontend",
@@ -9,7 +18,7 @@
         "mobile": "https://user-images.githubusercontent.com/115664302/211726677-dfffec2a-c8e5-4fd5-9ea6-5f4722c87c03.PNG"
     },
     {
-        "name": "Project 2 - Brewery Buddy 🍻",
+        "name": "Brewery Buddy 🍻",
         "description": "A React.js application built using the OpenBreweryDB API along with React Leaflet, to query a maintained database of breweries around the world and display their location on a map.",
         "live": "https://brewerybuddy.netlify.app/",
         "gitFrontEnd": "https://github.com/jordbort/project-2-brewery-app",
@@ -18,7 +27,7 @@
         "mobile": null
     },
     {
-        "name": "Project 1 - Simon (sus version)",
+        "name": "Simon (sus version)",
         "description": "A pattern-matching web browser game meant to re-create the reactor task from the popular online game \"Among Us\" using HTML, CSS, and vanilla JavaScript.",
         "live": "https://jordbort.github.io/project-1-simon/",
         "gitFrontEnd": "https://github.com/jordbort/project-1-simon",
