@@ -2,7 +2,7 @@
     {
         "name": "Glitch Gator: A Glitch Art Generator",
         "description": "A Django fullstack application made in a one-week sprint, for users to upload and corrupt images, and share their creations with others.",
-        "live": null,
+        "live": "https://glitch-gator.herokuapp.com/",
         "gitFrontEnd": "https://github.com/jordbort/capstone-glitch_generator",
         "gitBackEnd": null,
         "desktop": null,
