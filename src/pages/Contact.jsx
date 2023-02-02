@@ -1,7 +1,7 @@
 import emailjs from "emailjs-com"
 import { useRef } from "react"
 
-export default function ContactForm() {
+export default function Contact() {
     const form = useRef()
 
     function sendEmail(e) {
@@ -18,11 +18,8 @@ export default function ContactForm() {
     }
 
     return (
-        <>
-            {/* <p>▓▒░▒▓▒░▒▓▒░▒▓</p> */}
-            {/* <h4>&#128071; Send me an email!</h4> */}
+        <main>
             <h4>Send me an email! &#128071;</h4>
-            {/* <p>░▒▓▒░▒▓▒░▒▓▒░</p> */}
             <form ref={form} onSubmit={sendEmail}>
                 <div>
                     <label htmlFor="user_name">Name:</label>
@@ -37,6 +34,6 @@ export default function ContactForm() {
                 <input type="submit" value="Send email" />
             </form>
             <p>If you prefer, you may also <a href="mailto:jordan.bortner@gmail.com">reach out to me directly.</a></p>
-        </>
+        </main>
     )
 }
