@@ -24,7 +24,7 @@ footer a {
     text-decoration: none;
 }
 
-main a {
+a {
     text-decoration: underline;
     color: #CCCC00;
 }

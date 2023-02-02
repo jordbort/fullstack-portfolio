@@ -19,7 +19,10 @@ export default function ContactForm() {
 
     return (
         <>
-            <h4>&#128071; Send me an email!</h4>
+            {/* <p>▓▒░▒▓▒░▒▓▒░▒▓</p> */}
+            {/* <h4>&#128071; Send me an email!</h4> */}
+            <h4>Send me an email! &#128071;</h4>
+            {/* <p>░▒▓▒░▒▓▒░▒▓▒░</p> */}
             <form ref={form} onSubmit={sendEmail}>
                 <div>
                     <label htmlFor="user_name">Name:</label>
@@ -33,6 +36,7 @@ export default function ContactForm() {
                 <textarea name="message" placeholder="Type your message here" />
                 <input type="submit" value="Send email" />
             </form>
+            <p>If you prefer, you may also <a href="mailto:jordan.bortner@gmail.com">reach out to me directly.</a></p>
         </>
     )
 }
