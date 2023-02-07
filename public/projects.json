@@ -1,12 +1,12 @@
 [
     {
-        "name": "Glitch Gator: A Glitch Art Generator",
-        "description": "A Django fullstack application made in a one-week sprint, for users to upload and corrupt images, and share their creations with others.",
+        "name": "Glitch Gator: A Glitch Art Generator 🐊",
+        "description": "A Django fullstack application made in a one-week sprint, for users to upload and corrupt images, and share their glitch art creations with others.",
         "live": "https://glitch-gator.herokuapp.com/",
         "gitFrontEnd": "https://github.com/jordbort/capstone-glitch_generator",
         "gitBackEnd": null,
-        "desktop": null,
-        "mobile": null
+        "desktop": "https://user-images.githubusercontent.com/115664302/216851711-c12ae1f9-acb2-499e-b375-f5814f393e6b.png",
+        "mobile": "https://user-images.githubusercontent.com/115664302/216893845-861b4d76-c68a-4ade-b791-590e43c36578.PNG"
     },
     {
         "name": "FitCheck",
