@@ -11,7 +11,7 @@ export default function About() {
 
     useEffect(() => {
         getAboutData()
-        return (() => setAbout(null))
+        return setAbout(null)
     }, [])
 
     function loaded() {
