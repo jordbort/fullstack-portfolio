@@ -21,6 +21,11 @@ export default function Projects() {
                     <section key={idx}>
                         {project.name ? <h4>{project.name}</h4> : null}
                         {project.description ? <p>{project.description}</p> : null}
+                        {project.technologies ? (
+                            <div className="technologies-used-icons">
+                                {project.technologies.map((technology, idx) => <img src={technology} key={idx} alt="" />)}
+                            </div>
+                        ) : null}
                         {project.desktop || project.mobile ? <div className="preview-images-container">
                             {project.desktop ? <div className="desktop-preview">
                                 <img src={project.desktop} alt={`Screenshot from ${project.name}`} />

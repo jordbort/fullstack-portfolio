@@ -17,6 +17,21 @@ img {
     margin-bottom: 4px;
 }
 
+.technologies-used-icons {
+    /* border: 1px dashed red; */
+    display: flex;
+    margin: 0 0 16px;
+    /* justify-content: flex-start; */
+}
+
+.technologies-used-icons img {
+    width: 64px;
+    /* border: 1px dashed blue; */
+    margin: 0 16px 0;
+    /* padding: 0; */
+    /* display: block; */
+}
+
 nav a,
 footer a {
     color: #CCCC00;
@@ -193,5 +208,10 @@ section {
 
     .buttons-container button {
         font-size: 0.75rem;
+    }
+
+    .technologies-used-icons img {
+        width: 40px;
+        /* margin: 0 16px 0; */
     }
 }
