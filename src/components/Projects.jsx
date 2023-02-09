@@ -16,7 +16,7 @@ export default function Projects() {
 
     function loaded() {
         return (
-            <main>
+            <>
                 {projects.map((project, idx) => (
                     <section key={idx}>
                         {project.name ? <h3>{project.name}</h3> : null}
@@ -45,7 +45,7 @@ export default function Projects() {
                         </div> : null}
                     </section>
                 ))}
-            </main>
+            </>
         )
     }
 
