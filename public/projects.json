@@ -3,7 +3,15 @@
         "name": "Glitch Gator: A Glitch Art Generator 🐊",
         "description": "A Django fullstack application made in a one-week sprint, for users to upload and corrupt images, and share their glitch art creations with others.",
         "live": "https://glitch-gator.herokuapp.com/",
-        "technologies": null,
+        "technologies": [
+            "https://raw.githubusercontent.com/devicons/devicon/1119b9f84c0290e0f0b38982099a2bd027a48bf1/icons/django/django-plain-wordmark.svg",
+            "https://raw.githubusercontent.com/devicons/devicon/1119b9f84c0290e0f0b38982099a2bd027a48bf1/icons/postgresql/postgresql-original-wordmark.svg",
+            "https://raw.githubusercontent.com/devicons/devicon/1119b9f84c0290e0f0b38982099a2bd027a48bf1/icons/amazonwebservices/amazonwebservices-original-wordmark.svg",
+            "https://raw.githubusercontent.com/devicons/devicon/1119b9f84c0290e0f0b38982099a2bd027a48bf1/icons/python/python-original-wordmark.svg",
+            "https://raw.githubusercontent.com/devicons/devicon/1119b9f84c0290e0f0b38982099a2bd027a48bf1/icons/html5/html5-original-wordmark.svg",
+            "https://raw.githubusercontent.com/devicons/devicon/1119b9f84c0290e0f0b38982099a2bd027a48bf1/icons/css3/css3-original-wordmark.svg",
+            "https://raw.githubusercontent.com/devicons/devicon/1119b9f84c0290e0f0b38982099a2bd027a48bf1/icons/javascript/javascript-original.svg"
+        ],
         "gitFrontEnd": "https://github.com/jordbort/capstone-glitch_generator",
         "gitBackEnd": null,
         "desktop": "https://user-images.githubusercontent.com/115664302/216851711-c12ae1f9-acb2-499e-b375-f5814f393e6b.png",
@@ -13,7 +21,15 @@
         "name": "FitCheck",
         "description": "A fullstack MERN (Mongoose, Express, React, Node) application for users to upload pictures of and rate their daily workouts, to share with other users on the platform.",
         "live": "https://fitness-check.netlify.app/",
-        "technologies": null,
+        "technologies": [
+            "https://raw.githubusercontent.com/devicons/devicon/1119b9f84c0290e0f0b38982099a2bd027a48bf1/icons/react/react-original-wordmark.svg",
+            "https://raw.githubusercontent.com/devicons/devicon/1119b9f84c0290e0f0b38982099a2bd027a48bf1/icons/express/express-original-wordmark.svg",
+            "https://raw.githubusercontent.com/devicons/devicon/1119b9f84c0290e0f0b38982099a2bd027a48bf1/icons/nodejs/nodejs-original.svg",
+            "https://raw.githubusercontent.com/devicons/devicon/1119b9f84c0290e0f0b38982099a2bd027a48bf1/icons/mongodb/mongodb-original-wordmark.svg",
+            "https://raw.githubusercontent.com/devicons/devicon/1119b9f84c0290e0f0b38982099a2bd027a48bf1/icons/html5/html5-original-wordmark.svg",
+            "https://raw.githubusercontent.com/devicons/devicon/1119b9f84c0290e0f0b38982099a2bd027a48bf1/icons/css3/css3-original-wordmark.svg",
+            "https://raw.githubusercontent.com/devicons/devicon/1119b9f84c0290e0f0b38982099a2bd027a48bf1/icons/javascript/javascript-original.svg"
+        ],
         "gitFrontEnd": "https://github.com/jordbort/project-3-fitness-frontend",
         "gitBackEnd": "https://github.com/jordbort/project-3-fitness-backend",
         "desktop": "https://user-images.githubusercontent.com/115664302/211726692-96dd4adb-62bd-47ff-aac6-a0a7e2c04d85.jpg",
@@ -23,7 +39,13 @@
         "name": "Brewery Buddy 🍻",
         "description": "A React.js application built using the OpenBreweryDB API along with React Leaflet, to query a maintained database of breweries around the world and display their location on a map.",
         "live": "https://brewerybuddy.netlify.app/",
-        "technologies": null,
+        "technologies": [
+            "https://raw.githubusercontent.com/devicons/devicon/1119b9f84c0290e0f0b38982099a2bd027a48bf1/icons/react/react-original-wordmark.svg",
+            "https://raw.githubusercontent.com/devicons/devicon/1119b9f84c0290e0f0b38982099a2bd027a48bf1/icons/html5/html5-original-wordmark.svg",
+            "https://raw.githubusercontent.com/devicons/devicon/1119b9f84c0290e0f0b38982099a2bd027a48bf1/icons/css3/css3-original-wordmark.svg",
+            "https://raw.githubusercontent.com/devicons/devicon/1119b9f84c0290e0f0b38982099a2bd027a48bf1/icons/sass/sass-original.svg",
+            "https://raw.githubusercontent.com/devicons/devicon/1119b9f84c0290e0f0b38982099a2bd027a48bf1/icons/javascript/javascript-original.svg"
+        ],
         "gitFrontEnd": "https://github.com/jordbort/project-2-brewery-app",
         "gitBackEnd": null,
         "desktop": "https://user-images.githubusercontent.com/115664302/217725032-913fc285-869e-4f66-bd8b-77abc1a639d9.png",
@@ -33,7 +55,11 @@
         "name": "Simon (sus version)",
         "description": "A pattern-matching web browser game meant to re-create the reactor task from the popular online game \"Among Us\" using HTML, CSS, and vanilla JavaScript.",
         "live": "https://jordbort.github.io/project-1-simon/",
-        "technologies": null,
+        "technologies": [
+            "https://raw.githubusercontent.com/devicons/devicon/1119b9f84c0290e0f0b38982099a2bd027a48bf1/icons/html5/html5-original-wordmark.svg",
+            "https://raw.githubusercontent.com/devicons/devicon/1119b9f84c0290e0f0b38982099a2bd027a48bf1/icons/css3/css3-original-wordmark.svg",
+            "https://raw.githubusercontent.com/devicons/devicon/1119b9f84c0290e0f0b38982099a2bd027a48bf1/icons/javascript/javascript-original.svg"
+        ],
         "gitFrontEnd": "https://github.com/jordbort/project-1-simon",
         "gitBackEnd": null,
         "desktop": "https://user-images.githubusercontent.com/115664302/202954229-24d44307-2766-4934-8b66-98e2ecd27651.png",
@@ -43,7 +69,10 @@
         "name": "Biographical website",
         "description": "My own personal website showcasing my background and works as an artist and musician, recently refactored for mobile responsiveness.",
         "live": "https://www.jordanbortner.com/",
-        "technologies": null,
+        "technologies": [
+            "https://raw.githubusercontent.com/devicons/devicon/1119b9f84c0290e0f0b38982099a2bd027a48bf1/icons/html5/html5-original-wordmark.svg",
+            "https://raw.githubusercontent.com/devicons/devicon/1119b9f84c0290e0f0b38982099a2bd027a48bf1/icons/css3/css3-original-wordmark.svg"
+        ],
         "gitFrontEnd": "https://github.com/jordbort/website",
         "gitBackEnd": null,
         "desktop": "https://user-images.githubusercontent.com/115664302/211127888-1c57f87e-18b9-40db-8a65-1e474aa27db4.jpg",
