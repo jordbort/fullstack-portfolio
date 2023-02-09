@@ -22,6 +22,7 @@ export default function About() {
                 <h3>Name: {about.name}</h3>
                 <p>Location: {about.location}</p>
                 <p className="bio">Bio: {about.bio}</p>
+                <p><a href={about.resume} target="_blank" rel="noopener noreferrer">Check out my resume here!</a></p>
                 <p>&#10217;&#10217;</p>
             </main>
         )
