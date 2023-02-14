@@ -1,5 +1,5 @@
 body {
-    background-color: #444444;
+    background-color: #555555;
     background-attachment: fixed;
     background-repeat: no-repeat;
     margin: 0 25vw;
@@ -107,7 +107,7 @@ section {
 }
 
 .technologies-used-icons img:hover {
-    background-color: #CCCCCC;
+    background-color: #DDDDDD;
 }
 
 .about-photo {
@@ -117,13 +117,13 @@ section {
 }
 
 .nav-link {
-    background-color: #444444;
+    background-color: #555555;
     text-align: center;
     padding: 20px;
 }
 
 .nav-link:hover {
-    background-color: #555555;
+    background-color: #666666;
     color: #FFFF00;
 }
 
