@@ -18,12 +18,12 @@ export default function About() {
         return (
             <main>
                 <img src="jordan-bortner.png" className="about-photo" alt="Jordan Bortner" />
-                <p>&#10216;&#10216;</p>
+                <h5>&#10216;&#10216;</h5>
                 <h3>Name: {about.name}</h3>
-                <p>Location: {about.location}</p>
-                <p className="bio">Bio: {about.bio}</p>
-                <p><a href={about.resume} target="_blank" rel="noopener noreferrer">Check out my resume here!</a></p>
-                <p>&#10217;&#10217;</p>
+                <h5>Location: {about.location}</h5>
+                <h5 className="bio">Bio: {about.bio}</h5>
+                <h5><a href={about.resume} target="_blank" rel="noopener noreferrer">Check out my resume here!</a></h5>
+                <h5>&#10217;&#10217;</h5>
             </main>
         )
     }
