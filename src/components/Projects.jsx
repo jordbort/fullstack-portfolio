@@ -24,14 +24,7 @@ export default function Projects() {
                         {project.technologies ? <div className="technologies-used-icons">
                             {project.technologies.map((technology, idx) => <img src={technology} key={idx} alt="" />)}
                         </div> : null}
-                        {project.desktop || project.mobile ? <div className="preview-images-container">
-                            {project.desktop ? <div className="desktop-preview">
-                                <img src={project.desktop} alt={`Screenshot from ${project.name}`} />
-                            </div> : null}
-                            {project.mobile ? <div className="mobile-preview">
-                                <a href={project.live}><img src={project.mobile} alt={`Screenshot from ${project.name}`} /></a>
-                            </div> : null}
-                        </div> : null}
+                        {project.mockup ? <img src={project.mockup} alt={`Screenshot from ${project.name}`} /> : null}
                         {project.gitFrontEnd || project.gitBackEnd || project.live ? <div className="buttons-container">
                             {project.gitFrontEnd ? <a href={project.gitFrontEnd} target="_blank" rel="noreferrer">
                                 <button>Frontend repo<span className="desktop-only"> on GitHub</span></button>
