@@ -1,22 +1,5 @@
 [
     {
-        "name": "Money Mania",
-        "description": "A trivia game for teaching financial literacy to high school-aged students. Created in three days for General Assembly's spring 2023 hackathon.",
-        "live": "https://moneymania.netlify.app/",
-        "technologies": [
-            "https://raw.githubusercontent.com/devicons/devicon/1119b9f84c0290e0f0b38982099a2bd027a48bf1/icons/react/react-original-wordmark.svg",
-            "https://raw.githubusercontent.com/devicons/devicon/1119b9f84c0290e0f0b38982099a2bd027a48bf1/icons/express/express-original-wordmark.svg",
-            "https://raw.githubusercontent.com/devicons/devicon/1119b9f84c0290e0f0b38982099a2bd027a48bf1/icons/nodejs/nodejs-original.svg",
-            "https://raw.githubusercontent.com/devicons/devicon/1119b9f84c0290e0f0b38982099a2bd027a48bf1/icons/mongodb/mongodb-original-wordmark.svg",
-            "https://raw.githubusercontent.com/devicons/devicon/1119b9f84c0290e0f0b38982099a2bd027a48bf1/icons/html5/html5-original-wordmark.svg",
-            "https://raw.githubusercontent.com/devicons/devicon/1119b9f84c0290e0f0b38982099a2bd027a48bf1/icons/css3/css3-original-wordmark.svg",
-            "https://raw.githubusercontent.com/devicons/devicon/1119b9f84c0290e0f0b38982099a2bd027a48bf1/icons/javascript/javascript-original.svg"
-        ],
-        "gitFrontEnd": "https://github.com/Cazier92/Money-Mania-Frontend",
-        "gitBackEnd": "https://github.com/Cazier92/Budget-Garden-Backend",
-        "mockup": "https://www.jordanbortner.com/money_mania-mockup.png"
-    },
-    {
         "name": "Glitch Gator: A Glitch Art Generator 🐊",
         "description": "A Django fullstack application made in a one-week sprint, for users to upload and corrupt images, and share their glitch art creations with others.",
         "live": "https://glitch-gator.herokuapp.com/",
@@ -49,6 +32,23 @@
         "gitFrontEnd": "https://github.com/jordbort/project-3-fitness-frontend",
         "gitBackEnd": "https://github.com/jordbort/project-3-fitness-backend",
         "mockup": "https://www.jordanbortner.com/fitcheck-mockup.png"
+    },
+    {
+        "name": "Money Mania",
+        "description": "A trivia game for teaching financial literacy to high school-aged students. Created in three days for General Assembly's spring 2023 hackathon.",
+        "live": "https://moneymania.netlify.app/",
+        "technologies": [
+            "https://raw.githubusercontent.com/devicons/devicon/1119b9f84c0290e0f0b38982099a2bd027a48bf1/icons/react/react-original-wordmark.svg",
+            "https://raw.githubusercontent.com/devicons/devicon/1119b9f84c0290e0f0b38982099a2bd027a48bf1/icons/express/express-original-wordmark.svg",
+            "https://raw.githubusercontent.com/devicons/devicon/1119b9f84c0290e0f0b38982099a2bd027a48bf1/icons/nodejs/nodejs-original.svg",
+            "https://raw.githubusercontent.com/devicons/devicon/1119b9f84c0290e0f0b38982099a2bd027a48bf1/icons/mongodb/mongodb-original-wordmark.svg",
+            "https://raw.githubusercontent.com/devicons/devicon/1119b9f84c0290e0f0b38982099a2bd027a48bf1/icons/html5/html5-original-wordmark.svg",
+            "https://raw.githubusercontent.com/devicons/devicon/1119b9f84c0290e0f0b38982099a2bd027a48bf1/icons/css3/css3-original-wordmark.svg",
+            "https://raw.githubusercontent.com/devicons/devicon/1119b9f84c0290e0f0b38982099a2bd027a48bf1/icons/javascript/javascript-original.svg"
+        ],
+        "gitFrontEnd": "https://github.com/Cazier92/Money-Mania-Frontend",
+        "gitBackEnd": "https://github.com/Cazier92/Budget-Garden-Backend",
+        "mockup": "https://www.jordanbortner.com/money_mania-mockup.png"
     },
     {
         "name": "Brewery Buddy 🍻",
