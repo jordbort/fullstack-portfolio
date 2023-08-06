@@ -19,7 +19,7 @@ export default function Contact() {
 
     return (
         <main>
-            <h4>Send me an email! &#128071;</h4>
+            <h4>Email me! &#128071;</h4>
             <form ref={form} onSubmit={sendEmail}>
                 <div>
                     <label htmlFor="user_name">Name:</label>

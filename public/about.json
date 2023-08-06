@@ -1,6 +1,5 @@
 {
     "name": "Jordan Bortner",
     "location": "Brooklyn, NY",
-    "bio": "I am a full-stack software engineer and web developer with a lifelong passion for programming, music, and language. I love solving problems with code, and collaborating with others. My specialties include JavaScript technologies (Node.js, React.js, Express.js, Mongoose.js), HTML, CSS, and JavaScript/XML (JSX). I am an obsessive organizer, have strong communication skills, and am very detail-oriented.",
-    "resume": "https://jordanbortner.com/resume.pdf"
+    "bio": "I am a full-stack software engineer and web developer with a lifelong passion for programming, music, and language. I love solving problems with code, and collaborating with others. Recently won first runner-up in a hackathon with a cross-functional team of UX designers and software engineers. Strong ability with both the functionality and creative aspects of the frontend, and the logic, debugging, and problem solving of the backend. My specialties include JavaScript technologies (Node.js, React.js, Express.js, Mongoose.js), database technologies such as PostgreSQL and MongoDB, Python, HTML, CSS, and building RESTful APIs. I am an obsessive organizer, have strong communication skills, and am very detail-oriented."
 }
