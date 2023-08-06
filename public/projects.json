@@ -64,30 +64,5 @@
         "gitFrontEnd": "https://github.com/jordbort/project-2-brewery-app",
         "gitBackEnd": null,
         "mockup": "https://www.jordanbortner.com/brewery_buddy-mockup.png"
-    },
-    {
-        "name": "Simon (sus version)",
-        "description": "A pattern-matching web browser game meant to re-create the reactor task from the popular online game \"Among Us\" using HTML, CSS, and vanilla JavaScript.",
-        "live": "https://jordbort.github.io/project-1-simon/",
-        "technologies": [
-            "https://raw.githubusercontent.com/devicons/devicon/1119b9f84c0290e0f0b38982099a2bd027a48bf1/icons/html5/html5-original-wordmark.svg",
-            "https://raw.githubusercontent.com/devicons/devicon/1119b9f84c0290e0f0b38982099a2bd027a48bf1/icons/css3/css3-original-wordmark.svg",
-            "https://raw.githubusercontent.com/devicons/devicon/1119b9f84c0290e0f0b38982099a2bd027a48bf1/icons/javascript/javascript-original.svg"
-        ],
-        "gitFrontEnd": "https://github.com/jordbort/project-1-simon",
-        "gitBackEnd": null,
-        "mockup": "https://www.jordanbortner.com/simon-mockup.png"
-    },
-    {
-        "name": "Biographical website",
-        "description": "My own personal website showcasing my background and works as an artist and musician, recently refactored for mobile responsiveness.",
-        "live": "https://www.jordanbortner.com/",
-        "technologies": [
-            "https://raw.githubusercontent.com/devicons/devicon/1119b9f84c0290e0f0b38982099a2bd027a48bf1/icons/html5/html5-original-wordmark.svg",
-            "https://raw.githubusercontent.com/devicons/devicon/1119b9f84c0290e0f0b38982099a2bd027a48bf1/icons/css3/css3-original-wordmark.svg"
-        ],
-        "gitFrontEnd": "https://github.com/jordbort/website",
-        "gitBackEnd": null,
-        "mockup": "https://www.jordanbortner.com/website-mockup.png"
     }
 ]
