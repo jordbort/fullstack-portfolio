@@ -82,5 +82,17 @@
         "gitFrontEnd": "https://github.com/jordbort/next-bot-banner",
         "gitBackEnd": null,
         "mockup": "https://www.jordanbortner.com/ttv_bot_banner-mockup.png"
+    },
+    {
+        "name": "Biographical website",
+        "description": "My own personal website, first built in 2008, showcasing my background and works as an artist and musician. Refactored in 2022 for mobile responsiveness.",
+        "live": "https://www.jordanbortner.com/",
+        "technologies": [
+            "https://raw.githubusercontent.com/devicons/devicon/1119b9f84c0290e0f0b38982099a2bd027a48bf1/icons/html5/html5-original-wordmark.svg",
+            "https://raw.githubusercontent.com/devicons/devicon/1119b9f84c0290e0f0b38982099a2bd027a48bf1/icons/css3/css3-original-wordmark.svg"
+        ],
+        "gitFrontEnd": "https://github.com/jordbort/website",
+        "gitBackEnd": null,
+        "mockup": "https://www.jordanbortner.com/website-mockup.png"
     }
 ]
