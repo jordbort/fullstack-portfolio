@@ -19,23 +19,17 @@ export default function Projects() {
             <>
                 {projects.map((project, idx) => (
                     <section key={idx}>
-                        {project.name ? <h3>{project.name}</h3> : null}
-                        {project.description ? <p>{project.description}</p> : null}
-                        {project.technologies ? <div className="technologies-used-icons">
+                        {project.name && <h3>{project.name}</h3>}
+                        {project.description && <p>{project.description}</p>}
+                        {project.technologies && <div className="technologies-used-icons">
                             {project.technologies.map((technology, idx) => <img src={technology} key={idx} alt="" />)}
-                        </div> : null}
-                        {project.mockup ? <img src={project.mockup} alt={`Screenshot from ${project.name}`} /> : null}
-                        {project.gitFrontEnd || project.gitBackEnd || project.live ? <div className="buttons-container">
-                            {project.gitFrontEnd ? <a href={project.gitFrontEnd} target="_blank" rel="noreferrer">
-                                <button>Frontend repo<span className="desktop-only"> on GitHub</span></button>
-                            </a> : null}
-                            {project.gitBackEnd ? <a href={project.gitBackEnd} target="_blank" rel="noreferrer">
-                                <button>Backend repo<span className="desktop-only"> on GitHub</span></button>
-                            </a> : null}
-                            {project.live ? <a href={project.live} target="_blank" rel="noreferrer">
-                                <button>Deployed site</button>
-                            </a> : null}
-                        </div> : null}
+                        </div>}
+                        {project.mockup && <img src={project.mockup} alt={`Screenshot from ${project.name}`} />}
+                        {(project.gitFrontEnd || project.gitBackEnd || project.live) && <div className="buttons-container">
+                            {project.gitFrontEnd && <a href={project.gitFrontEnd} target="_blank" rel="noreferrer"><button>Frontend repo<span className="desktop-only"> on GitHub</span></button></a>}
+                            {project.gitBackEnd && <a href={project.gitBackEnd} target="_blank" rel="noreferrer"><button>Backend repo<span className="desktop-only"> on GitHub</span></button></a>}
+                            {project.live && <a href={project.live} target="_blank" rel="noreferrer"><button>Deployed site</button></a>}
+                        </div>}
                     </section>
                 ))}
             </>
